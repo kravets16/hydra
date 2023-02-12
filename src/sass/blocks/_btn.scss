@@ -1,0 +1,84 @@
+.btn {
+  padding: 16px 39px;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  color: #343045;
+  background: linear-gradient(90deg, #8176AF 0%, #C0B7E8 100%);
+  border-radius: 40px;
+  white-space: nowrap;
+  transition: all 1s ease;
+  &:hover {
+    color: $text-color;
+  }
+  @media (max-width: 991px) {
+    padding: 10px 22px;
+  }
+  @media (max-width: 768px) {
+    padding: 16px 39px;
+  }
+  &__white {
+    padding: 15px 38px;
+    color: $text-color;
+    background: transparent;
+    border: 2px solid $text-color;
+    transition: all .5s ease;
+    &:hover{
+      color: $hover-color;
+      border-color: $hover-color;
+    }
+    @media (max-width: 991px) {
+      padding: 9px 21px;
+    }
+    @media (max-width: 768px) {
+        padding: 15px 38px;
+    }
+  }
+  &__large {
+        white-space: nowrap;
+        padding: 16px 45px 16px 39px;
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 15px;
+        color: #343045;
+        background: linear-gradient(90deg, #8176AF 0%, #C0B7E8 100%);
+        border-radius: 40px;
+        transition: all 1s ease;
+        &:hover {
+            color: $text-color;
+        }
+        @media (max-width: 768px) {
+            padding: 14px 39px 14px 32px;
+        }
+        @media (max-width: 575px) {
+            padding: 17px 69px;
+            font-size: 14px;
+            line-height: 17px;
+        }
+    }
+        &__form {
+            white-space: nowrap;
+            padding: 16px 55px 16px 55px;
+            font-weight: 700;
+            font-size: 12px;
+            line-height: 15px;
+            color: #343045;
+            background: linear-gradient(90deg, #8176AF 0%, #C0B7E8 100%);
+            border-radius: 40px;
+            transition: all 1s ease;
+    
+            &:hover {
+                color: $text-color;
+            }
+    
+            /* @media (max-width: 768px) {
+                padding: 14px 39px 14px 32px;
+            } */
+    
+            @media (max-width: 575px) {
+                padding: 16px 72px;
+                font-size: 14px;
+                line-height: 17px;
+            }
+        }
+}

@@ -1,0 +1,63 @@
+/* ===============base=============== */
+@import 'base/reset';
+@import 'base/variables';
+@import 'base/mixins';
+
+/* ==========blocks=========== */
+@import 'blocks/btn';
+@import 'blocks/swiper';
+@import 'blocks/swiper-vars';
+@import 'blocks/header';
+@import 'blocks/hero';
+@import 'blocks/introdution&how';
+@import 'blocks/why';
+@import 'blocks/about';
+@import 'blocks/used';
+@import 'blocks/partners';
+@import 'blocks/join';
+@import 'blocks/footer';
+
+/*============settings================= */
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: $text-color;
+    background-color: $background-color;
+}
+
+.container {
+    max-width: calc(1272px + 20px);
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.section__title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    text-transform: uppercase;
+    @media (max-width: 768px) {
+        font-size: 26px;
+        line-height: 32px;
+        text-align: center;
+    }
+}
+
+.section__subtitle {
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 44px;
+    text-transform: uppercase;
+    white-space: nowrap;
+    @media (max-width: 768px) {
+        font-size: 26px;
+        line-height: 32px;
+        text-align: center;
+    }
+}
+
+.none {
+  display: none;
+}
